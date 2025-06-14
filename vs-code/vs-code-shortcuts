@@ -1,0 +1,10 @@
+ctrl + B: hide menu
+shift + alt + ⬇️: duplicate line
+alt + ⬇️: move line
+ctrl + L: select line
+ctrl + P: search file
+ctrl + F: search/replace text
+ctrl + shift + L: change equal text at same time
+ctrl + ;: comment/uncomment
+ctrl + tab: change tabs
+alt + "Nº": change to "N" tab on sequence
