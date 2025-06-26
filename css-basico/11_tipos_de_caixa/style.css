@@ -1,0 +1,15 @@
+h1 {
+    display: inline;
+}
+
+p {
+    display: inline;
+}
+
+span {
+    display: block;
+    width: 200px;
+    height: 200px;
+    color: orange;
+    background-color: aliceblue;
+}
