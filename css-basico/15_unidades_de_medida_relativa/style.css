@@ -1,0 +1,22 @@
+html {
+    background-color: #ccc;
+    font-size: 32px;
+}
+
+body {
+    background-color: purple;
+    width: 50%;
+    font-size: 1em;
+}
+
+.pai {
+    background-color: pink;
+    width: 50%;
+    font-size: 0.5em;
+}
+
+.filha {
+    background-color: green;
+    width: 50%;
+    font-size: 1rem;
+}
