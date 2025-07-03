@@ -1,1 +1,1 @@
-Progress: 27,20%
+Progress: 27,40%
