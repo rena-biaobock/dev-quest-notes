@@ -1,0 +1,8 @@
+.fa-square-facebook {
+    color: orange;
+    font-size: 100px;
+}
+
+.fa-square-facebook:hover {
+    color: red;
+}
