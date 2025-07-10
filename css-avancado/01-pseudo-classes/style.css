@@ -1,0 +1,15 @@
+.first-child p:first-child {
+    color: blue;
+}
+
+.last-child p:last-child {
+    color: red;
+}
+
+p:not(.padrao) {
+    color: green;
+}
+
+li:nth-child(odd) {
+    background-color: #ccc;
+}

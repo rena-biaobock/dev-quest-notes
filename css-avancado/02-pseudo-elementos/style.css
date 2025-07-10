@@ -1,0 +1,29 @@
+p {
+    font-size: 16px;
+}
+
+p::first-letter {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p::first-line {
+    color: red;
+}
+
+li::marker {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+h2::before {
+    content: url(coffee.jpg);
+}
+
+h2::after {
+    content: "";
+    background: url(coffee.jpg) center center no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
