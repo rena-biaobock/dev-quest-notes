@@ -1,0 +1,36 @@
+.flex-start {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.flex-end {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stretch {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.baseline {
+    display: flex;
+    align-items: baseline;
+}
+
+.baseline div:first-child {
+    font-size: 60px;
+}
+
+.baseline div:last-child {
+    font-size: 100px;
+}
