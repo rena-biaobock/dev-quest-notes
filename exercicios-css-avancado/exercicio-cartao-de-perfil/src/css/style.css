@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    --background-color: hsl(185, 75%, 39%);
+    --text-color: hsl(227, 10%, 46%);
+}
+
+body {
+    background-color: var(--background-color);
+    width: 100vw;
+    height: 100vh;
+
+    font-family: "Kumbh Sans", sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-upper-side {
+    width: 300px;
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border-bottom: solid 3px rgb(215,213,209);
+}
+
+.card-upper-side img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name-age h2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.name-age span {
+    color: var(--text-color);
+}
+
+.city h3{
+    font-size: 14px;
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+.card-bottom-side {
+    width: 300px;
+    height: 100px;
+
+    display: flex;
+}
+
+.profile-stats {
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-stats h2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.profile-stats h3 {
+    font-size: 14px;
+    color: var(--text-color);
+    font-weight: 400;
+}
