@@ -9,6 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
 
   <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/variables.css">
   <link rel="stylesheet" href="./src/css/style.css">
 
   <title>Frontend Mentor | Profile card component</title>
@@ -16,45 +17,39 @@
 </head>
 
 <body>
-  
-  <div class="profile-card">
 
-    <div class="card-upper-side">
-      
-      <div class="profile-photo">
-        <img src="src/images/image-victor.jpg" alt="profile photo">
-      </div>
+  <main class="container">
 
-      <div class="name-age">
-        <h2>Victor Crest <span>26</span></h2>
-      </div>
+        <div class="card">
 
-      <div class="city">
-        <h3>London</h3>
-      </div>
+            <div class="profile-informations">
+                <img src="./src/images/image-victor.jpg" alt="Profile picture image">
 
-    </div>  
+                <p>Victor Crest <span class="age">26</span></p>
 
-    <div class="card-bottom-side">
-      
-      <div class="profile-stats">
-        <h2>80K</h2>
-        <h3>Followers</h3>
-      </div>
-      
-      <div class="profile-stats">
-        <h2>803K</h2>
-        <h3>Likes</h3>
-      </div>
+                <span class="city">London</span>
+            </div>
 
-      <div class="profile-stats">
-        <h2>1.4K</h2>
-        <h3>Photos</h3>
-      </div>
+            <hr>
 
-    </div>
+            <ul class="profile-numbers">
+                <li class="info">
+                    <p class="counter">80K</p>
+                    <span class="counter-type">Followers</sp>
+                </li>
+                <li class="info">
+                    <p class="counter">803K</p>
+                    <span class="counter-type">Likes</span>
+                </li>
+                <li class="info">
+                    <p class="counter">1.4K</p>
+                    <span class="counter-type">Photos</span>
+                </li>
+            </ul>
 
-  </div>
+        </div>
+
+    </main>
 
 </body>
 
