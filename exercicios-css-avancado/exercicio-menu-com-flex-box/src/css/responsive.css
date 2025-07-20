@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px) {
-    .menu, nav, nav ul {
+    .header, nav, .menu {
         flex-direction: column;
     }
 
@@ -8,14 +8,14 @@
     }
 
     .register {
-        margin-top: 4rem;
+        margin-top: 8rem;
         font-size: 1.8rem;
     }
 
-    nav ul li {
+    .menu li a {
         font-size: 4rem;
         margin: 1rem 0;
-        padding: 1rem;
+        padding: 1rem 2rem;
     }
 
     .logo-text {
