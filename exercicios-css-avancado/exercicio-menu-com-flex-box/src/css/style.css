@@ -62,7 +62,6 @@ nav ul li {
 nav ul li:hover {
     color: white;
     background: #5BC241;
-    cursor: pointer;
 }
 
 .register {
