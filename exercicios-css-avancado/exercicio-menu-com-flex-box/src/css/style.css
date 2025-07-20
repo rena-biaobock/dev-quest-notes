@@ -78,28 +78,3 @@ nav ul li:hover {
 .register:hover {
     box-shadow: 0px 0px 20px 4px #5BC241;
 }
-
-@media screen and (max-width: 768px) {
-    .menu, nav, nav ul {
-        flex-direction: column;
-    }
-
-    .logo {
-        margin-bottom: 80px;
-    }
-
-    .register {
-        margin-top: 40px;
-        font-size: 18px;
-    }
-
-    nav ul li {
-        font-size: 40px;
-        margin: 10px 0px;
-        padding: 10px;
-    }
-
-    .logo-text {
-        font-size: 40px;
-    }
-}
