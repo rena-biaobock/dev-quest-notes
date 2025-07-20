@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap');
 
 :root {
     --font-family: "Public Sans", sans-serif;
@@ -6,25 +6,19 @@
 
 body {
     font-family: var(--font-family);
+    font-weight: 400;
 }
 
-.menu {
+.header {
     display: flex;
     align-items: center;
-
-    margin: 45px;
+    justify-content: space-between;
+    padding: 4.5rem;
 }
 
 .logo {
     display: flex;
     align-items: center;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 100vw;
 }
 
 .logo-img {
@@ -35,31 +29,35 @@ nav {
 .logo-text {
     font-family: Public Sans;
     font-weight: 800;
-    font-size: 20px;
-    margin-left: 5px;
+    font-size: 2rem;
+    margin-left: 0.5rem;
 }
 
-nav ul {
+nav {
     display: flex;
+    align-items: center;
 }
 
-nav ul li {
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li a {
     font-family: Public Sans;
-    font-weight: 400;
-    font-size: 15px;
-    padding: 10px 10px;
-    margin: 0px 5px;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    margin: 0 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 0.4s ease;
-    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+    border-radius: 1rem;
 }
 
-nav ul li:hover {
+.menu li a:hover {
     color: white;
     background: #5BC241;
-    cursor: pointer;
 }
 
 .register {
@@ -69,37 +67,13 @@ nav ul li:hover {
     height: 39px;
     background-color: #5BC241;
     color: white;
-    border-radius: 10px;
-    font-size: 15px;
-    margin-left: 10px;
-    transition: 0.4s ease;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    transition: 0.4s ease-in-out;
+    font-weight: 300;
 }
 
 .register:hover {
-    box-shadow: 0px 0px 20px 4px #5BC241;
-}
-
-@media screen and (max-width: 768px) {
-    .menu, nav, nav ul {
-        flex-direction: column;
-    }
-
-    .logo {
-        margin-bottom: 80px;
-    }
-
-    .register {
-        margin-top: 40px;
-        font-size: 18px;
-    }
-
-    nav ul li {
-        font-size: 40px;
-        margin: 10px 0px;
-        padding: 10px;
-    }
-
-    .logo-text {
-        font-size: 40px;
-    }
+    box-shadow: 0 0 20px 4px #5BC241;
 }
