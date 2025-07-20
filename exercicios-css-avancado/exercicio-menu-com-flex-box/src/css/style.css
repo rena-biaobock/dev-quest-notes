@@ -15,17 +15,7 @@ body {
     padding: 45px;
 }
 
-.menu {
-    display: flex;
-    align-items: center;
-}
-
 .logo {
-    display: flex;
-    align-items: center;
-}
-
-nav {
     display: flex;
     align-items: center;
 }
@@ -42,8 +32,14 @@ nav {
     margin-left: 5px;
 }
 
-nav ul {
+nav {
     display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
 }
 
 .menu li a {
