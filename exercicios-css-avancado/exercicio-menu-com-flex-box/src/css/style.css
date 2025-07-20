@@ -46,7 +46,7 @@ nav ul {
     display: flex;
 }
 
-nav ul li {
+.menu li a {
     font-family: Public Sans;
     font-weight: 400;
     font-size: 15px;
@@ -59,7 +59,7 @@ nav ul li {
     border-radius: 10px;
 }
 
-nav ul li:hover {
+.menu li a:hover {
     color: white;
     background: #5BC241;
 }
