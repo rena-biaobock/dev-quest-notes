@@ -8,11 +8,16 @@ body {
     font-family: var(--font-family);
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+}
+
 .menu {
     display: flex;
     align-items: center;
-
-    margin: 45px;
 }
 
 .logo {
@@ -23,8 +28,6 @@ body {
 nav {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    width: 100vw;
 }
 
 .logo-img {
