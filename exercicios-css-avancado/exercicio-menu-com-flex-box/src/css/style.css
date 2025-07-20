@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;800&display=swap');
+
+:root {
+    --font-family: "Public Sans", sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+    margin: 45px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100vw;
+}
+
+.logo-img {
+    width: 45px;
+    height: 42px;
+}
+
+.logo-text {
+    font-family: Public Sans;
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px 10px;
+    margin: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease;
+    border-radius: 10px;
+}
+
+nav ul li:hover {
+    color: white;
+    background: #5BC241;
+    cursor: pointer;
+}
+
+.register {
+    border: none;
+    font-family: var(--font-family);
+    width: 127px;
+    height: 39px;
+    background-color: #5BC241;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 10px;
+    transition: 0.4s ease;
+}
+
+.register:hover {
+    box-shadow: 0px 0px 20px 4px #5BC241;
+}
+
+@media screen and (max-width: 768px) {
+    .menu, nav, nav ul {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 80px;
+    }
+
+    .register {
+        margin-top: 40px;
+        font-size: 18px;
+    }
+
+    nav ul li {
+        font-size: 40px;
+        margin: 10px 0px;
+        padding: 10px;
+    }
+
+    .logo-text {
+        font-size: 40px;
+    }
+}
