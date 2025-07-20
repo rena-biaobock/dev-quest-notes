@@ -6,6 +6,7 @@
 
 body {
     font-family: var(--font-family);
+    font-weight: 400;
 }
 
 .header {
@@ -44,7 +45,6 @@ nav {
 
 .menu li a {
     font-family: Public Sans;
-    font-weight: 400;
     font-size: 15px;
     padding: 10px 10px;
     margin: 0px 5px;
