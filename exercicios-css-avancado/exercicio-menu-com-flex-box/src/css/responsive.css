@@ -4,21 +4,21 @@
     }
 
     .logo {
-        margin-bottom: 80px;
+        margin-bottom: 8rem;
     }
 
     .register {
-        margin-top: 40px;
-        font-size: 18px;
+        margin-top: 4rem;
+        font-size: 1.8rem;
     }
 
     nav ul li {
-        font-size: 40px;
-        margin: 10px 0px;
-        padding: 10px;
+        font-size: 4rem;
+        margin: 1rem 0;
+        padding: 1rem;
     }
 
     .logo-text {
-        font-size: 40px;
+        font-size: 4rem;
     }
 }
