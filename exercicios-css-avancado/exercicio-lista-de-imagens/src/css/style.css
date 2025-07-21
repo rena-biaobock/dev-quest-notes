@@ -28,7 +28,7 @@ body {
     transition: 0.4s ease;
 }
 
-.container h2, .container span {
+.container h2, .container h3 {
     position: absolute;
     margin-left: 15px;
 }
@@ -38,7 +38,7 @@ body {
     font-weight: 700;
 }
 
-.container span {
+.container h3 {
     margin-bottom: 20px;
     font-weight: 300;
 }
