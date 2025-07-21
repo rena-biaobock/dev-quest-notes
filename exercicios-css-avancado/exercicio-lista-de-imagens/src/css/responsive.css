@@ -1,0 +1,12 @@
+@media(max-width: 768px){
+    .pictures {
+        gap: 0px;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 1440px){
+    .pictures {
+        width: 900px;
+    }
+}
