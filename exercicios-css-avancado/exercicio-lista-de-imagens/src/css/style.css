@@ -6,13 +6,13 @@ body {
 
 .main {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 
     min-height: 100vh;
 
-    padding: 10px;
+    gap: 20px;
 }
 
 .container {
@@ -22,8 +22,6 @@ body {
     justify-content: flex-end;
     
     color: #ffffff;
-
-    margin: 10px;
 
     transition: 0.4s ease;
 }
