@@ -1,0 +1,15 @@
+.container div {
+  border: 1px solid black;
+  color: white;
+  font-size: 20px;
+}
+
+.container div {
+  background-color: blueviolet;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 50px;
+}
