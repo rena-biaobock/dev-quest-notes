@@ -1,0 +1,34 @@
+.verde-claro {
+    background-color: aquamarine;
+    grid-column: 1 / span 2;
+    grid-row: 1 / 3;
+}
+
+.azul {
+    background-color: blue;
+    grid-column: 3 / span 3;
+}
+
+.rosa {
+    background-color: pink;
+}
+
+.laranja-escuro {
+    background-color: orangered;
+}
+
+.verde-forte {
+    background-color: green;
+}
+
+.marrom {
+    background-color: burlywood;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 15px;
+}
+
