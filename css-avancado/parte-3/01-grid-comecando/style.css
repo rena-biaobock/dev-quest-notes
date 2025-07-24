@@ -1,0 +1,21 @@
+.container div {
+  border: 1px solid black;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container div {
+  background-color: blueviolet;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: repeat(2, 50px);
+
+  column-gap: 10px;
+  row-gap: 20px;
+}

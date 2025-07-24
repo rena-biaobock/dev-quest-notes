@@ -1,0 +1,45 @@
+.container div {
+    border-radius: 10px;
+    border: 2px dashed black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+.verde-claro {
+    background-color: aquamarine;
+    grid-area: 1 / 1 / 3 / 3;
+}
+
+.azul {
+    background-color: blue;
+    grid-area: 1 / 3 / 2 / 6;
+}
+
+.rosa {
+    background-color: pink;
+    grid-area: 3 / 1 / 4 / 3;
+}
+
+.laranja-escuro {
+    background-color: orangered;
+    grid-area: 2 / 3 / 4 / 5;
+}
+
+.verde-forte {
+    background-color: green;
+}
+
+.marrom {
+    background-color: burlywood;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+}
+

@@ -1,0 +1,17 @@
+.container div {
+  border: 1px solid black;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container div {
+  background-color: blueviolet;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: minmax(100px, 800px) repeat(2, minmax(100px, 300px)) minmax(auto, auto);
+}

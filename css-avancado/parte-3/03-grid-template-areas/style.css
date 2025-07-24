@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background-color: aquamarine;
+    grid-area: cabecalho;
+}
+
+.menu {
+    background-color: burlywood;
+    grid-area: menu;
+}
+
+.secao-principal {
+    background-color: pink;
+    grid-area: secao-principal;
+}
+
+.aside {
+    background-color: orangered;
+    grid-area: aside;
+}
+
+.rodape {
+    background-color: green;
+    grid-area: rodape;
+}
+
+.container {
+    display: grid;
+    grid: 
+    "cabecalho cabecalho cabecalho" 200px
+    "menu secao-principal aside" 400px
+    "rodape rodape rodape" 250px
+    / 160px auto 100px;
+}
