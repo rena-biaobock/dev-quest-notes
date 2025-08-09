@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+main {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    background-color: rgb(230, 230, 230);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 655px;
+    min-height: 347px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 20px 20px -10px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+}
+
+.logo {
+    margin-left: -90px;
+}
+
+.faq {
+    flex: 1;
+    margin: 60px 40px;
+}
+
+.faq h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.question {
+    margin: 15px 0px;
+    transition: 0.3s;
+}
+
+.question .question-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+    transition: 0.3s;
+}
+
+.question .question-title:hover {
+    cursor: pointer;
+}
+
+.question .question-title h3 {
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.question .fa-caret-down {
+    font-size: 2rem;
+    color: rgba(212, 212, 212, 1);
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.question p {
+    font-weight: 300;
+    font-size: 15px;
+    display: none;
+    transition: 0.3s;
+}
+
+.question.clicked {
+    border-top: 1px solid rgba(212, 212, 212, 1);
+    border-bottom: 1px solid rgba(212, 212, 212, 1);
+    padding-bottom: 15px;
+}
+
+.question.clicked .fa-caret-down {
+    color: rgb(242, 71, 36);
+}
+
+.question.clicked p {
+    display: block;
+}
+
+.borders {
+    border-bottom: 1px solid rgba(212, 212, 212, 1);
+}
