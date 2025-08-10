@@ -1,0 +1,17 @@
+.container {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: black;
+    transition: 0.3s;
+}
+
+.container:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.blue {
+    background-color: blue;
+}
